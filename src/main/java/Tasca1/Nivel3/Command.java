@@ -1,4 +1,5 @@
 package Tasca1.Nivel3;
 
-public abstract class Command {
+public interface Command {
+    void execute();
 }
