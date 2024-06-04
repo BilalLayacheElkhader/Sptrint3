@@ -1,6 +1,8 @@
-package Tasca1.Nivel2;
+package Tasca1.Nivel2.phone;
 
-public class SpainNumber implements PhoneNumber{
+import Tasca1.Nivel2.phone.PhoneNumber;
+
+public class SpainNumber implements PhoneNumber {
     private static final String numberPrefix = "0034";
 
 

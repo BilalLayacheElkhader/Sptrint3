@@ -1,6 +1,8 @@
-package Tasca1.Nivel2;
+package Tasca1.Nivel2.country;
 
-public class SpainAddress implements CountryAddress{
+import Tasca1.Nivel2.country.CountryAddress;
+
+public class SpainAddress implements CountryAddress {
     private static final String country = "ESP";
 
 

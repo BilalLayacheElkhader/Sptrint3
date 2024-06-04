@@ -2,11 +2,13 @@ package Tasca1.Nivel3;
 
 public class Main {
     public static void main(String[] args) {
+
+        // no esta correctamente acabado, no entregar
+
         Cotxe cotxe = new Cotxe();
         Bici bici = new Bici();
         Avion avion = new Avion();
         Barco barco = new Barco();
-
         Controller controller = new Controller();
         controller.setCommand(new Arrancar(cotxe));
         controller.executeCommand();

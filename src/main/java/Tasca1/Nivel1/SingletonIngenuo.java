@@ -21,6 +21,7 @@ public class SingletonIngenuo {
         if(commands.isEmpty()){
             System.out.println("NO HAY COMANDOS PARA DESHACER");
         }else {
+            //remove.last
             commands.remove(commands.size()-1);
         }
     }

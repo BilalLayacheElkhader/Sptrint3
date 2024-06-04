@@ -1,4 +1,4 @@
-package Tasca1.Nivel2;
+package Tasca1.Nivel2.contact;
 
 public class Contact {
     private String phoneNumber;

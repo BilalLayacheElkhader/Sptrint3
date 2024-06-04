@@ -1,5 +1,9 @@
 package Tasca1.Nivel2;
 
+import Tasca1.Nivel2.country.SpainFactory;
+import Tasca1.Nivel2.factory.GUIFactory;
+import Tasca1.Nivel2.factory.IrelandFactory;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -22,7 +26,7 @@ public class Demo {
      private static void menu(){
         int option = 0;
         do{
-            System.out.println("0- PARA SALIR, QUALQUIER OTRA TECLA CONTINUAR");
+            System.out.println("0- PARA SALIR, QUALQUIER OTRO NUMERO PARA CONTINUAR");
             option = sc.nextInt();
             sc.nextLine();
             Application app = configureApplication();
@@ -31,6 +35,7 @@ public class Demo {
     }
 
     public static void main(String[] args) {
-    menu();
+        menu();
     }
+    //poner el main aparte en otra clase que se llame main
 }
