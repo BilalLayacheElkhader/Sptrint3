@@ -1,4 +1,6 @@
-package Tasca1.Nivel3;
+package Tasca1.Nivel3.Command;
+
+import Tasca1.Nivel3.Command.Command;
 
 public class Controller {
     private Command command;

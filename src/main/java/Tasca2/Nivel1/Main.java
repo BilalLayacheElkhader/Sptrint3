@@ -2,15 +2,18 @@ package Tasca2.Nivel1;
 
 public class Main {
     public static void main(String[] args) {
-        Stock stock = new Stock();
-        Observer agencyA = new AgencyA("Agencia A");
-        Observer agencyB = new AgencyB("Agencia B");
+       Broker broker = new Broker();
 
-        stock.addObserver(agencyA);
-        stock.addObserver(agencyB);
+       Observer agencyA = new Agency("AgencyA");
+       Observer agencyB = new Agency("AgencyB");
 
-        stock.setStock("UP!");
-        stock.setStock("DOWN!");
-        stock.setStock("UP!");
+       broker.addObserver(agencyA);
+       broker.addObserver(agencyB);
+
+       broker.setStock("Stock down");
+       broker.setStock("Stock up");
+
+
+
     }
 }

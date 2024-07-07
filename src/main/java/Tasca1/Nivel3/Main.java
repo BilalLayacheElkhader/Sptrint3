@@ -1,5 +1,14 @@
 package Tasca1.Nivel3;
 
+import Tasca1.Nivel3.Command.Acelerar;
+import Tasca1.Nivel3.Command.Arrancar;
+import Tasca1.Nivel3.Command.Controller;
+import Tasca1.Nivel3.Command.Frenar;
+import Tasca1.Nivel3.Vehicle.Avion;
+import Tasca1.Nivel3.Vehicle.Barco;
+import Tasca1.Nivel3.Vehicle.Bici;
+import Tasca1.Nivel3.Vehicle.Cotxe;
+
 public class Main {
     public static void main(String[] args) {
 
