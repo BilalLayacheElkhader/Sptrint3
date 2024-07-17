@@ -7,6 +7,7 @@ public class Broker implements Observable {
     private List<Observer> observers = new ArrayList<>();
     private String stock;
 
+    @Override
     public void addObserver(Observer observer){
         observers.add(observer);
     }
@@ -15,6 +16,7 @@ public class Broker implements Observable {
         this.stock = stock;
         notifyObserver();
     }
+    @Override
     public void notifyObserver(){
         for (Observer observer : observers){
             observer.update(stock);

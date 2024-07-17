@@ -10,8 +10,8 @@ public class Main {
        broker.addObserver(agencyA);
        broker.addObserver(agencyB);
 
-       broker.setStock("Stock down");
-       broker.setStock("Stock up");
+       broker.setStock("Down");
+       broker.setStock("Up");
 
 
 
